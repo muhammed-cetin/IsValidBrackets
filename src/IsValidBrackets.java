@@ -38,10 +38,4 @@ public class IsValidBrackets {
 
         return stack.isEmpty();
     }
-
-    public static void main(String[] args) {
-        String input = "([]{()})";
-        boolean result = isValid(input);
-        System.out.println(result ? "Valid" : "Invalid");
-    }
 }
